@@ -3,15 +3,16 @@ body {
     margin: 0;
 }
 
-section {
+.sec-third {
     display: flex;
+    margin-bottom: 150px;
 }
 
 h1 {
     font-size: 70px;
 }
 
-h2 {
+.h2 {
     font-size: 50px;
     color: orange;
 }
@@ -42,4 +43,51 @@ h2 {
 .first-sec {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.second-sec {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.full {
+    box-shadow: 10px 10px 40px grey;
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.front {
+    margin-left: 2%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.exp {
+    margin: 4%;
+}
+
+#font {
+    border-left: 7px solid red;
+}
+
+#ful {
+    border-left: 7px solid blue;
+}
+
+.last-sec {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer p {
+    text-align: center;
 }
